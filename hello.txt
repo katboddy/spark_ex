@@ -1,0 +1,212 @@
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project global-plugins from idea.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading global plugins from /Users/kat.boddy/.sbt/1.0/plugins[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project spark_ex-build from assembly.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /Users/kat.boddy/Documents/examples/spark_ex/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project spark_ex from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to spark_ex (in build file:/Users/kat.boddy/Documents/examples/spark_ex/)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/kat.boddy/Documents/examples/spark_ex/target/scala-2.11/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m## Exception when compiling 1 sources to /Users/kat.boddy/Documents/examples/spark_ex/target/scala-2.11/test-classes[0m
+[0m[[0m[31merror[0m] [0m[0mbad symbolic reference to org.mockito encountered in class file 'MockitoSugar.class'.[0m
+[0m[[0m[31merror[0m] [0m[0mCannot access term mockito in package org. The current classpath may be[0m
+[0m[[0m[31merror[0m] [0m[0mmissing a definition for org.mockito, or MockitoSugar.class may have been compiled against a version that's[0m
+[0m[[0m[31merror[0m] [0m[0mincompatible with the one found on the current classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.pickling.UnPickler$Scan.toTypeError(UnPickler.scala:675)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.pickling.UnPickler$Scan$LazyTypeRef.completeInternal(UnPickler.scala:690)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.pickling.UnPickler$Scan$LazyTypeRef.complete(UnPickler.scala:693)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1429)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.tpe.TypeMaps$TypeMap.loop$1(TypeMaps.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.tpe.TypeMaps$TypeMap.noChangeToSymbols(TypeMaps.scala:229)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:243)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:128)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:468)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:468)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.Types$Type.asSeenFrom(Types.scala:663)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.Types$Type.memberInfo(Types.scala:683)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI.defDef(ExtractAPI.scala:309)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI.xsbt$ExtractAPI$$definition(ExtractAPI.scala:440)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI$$anonfun$xsbt$ExtractAPI$$processDefinitions$1.apply(ExtractAPI.scala:422)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI$$anonfun$xsbt$ExtractAPI$$processDefinitions$1.apply(ExtractAPI.scala:422)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.TraversableLike$class.flatMap(TraversableLike.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.mutable.ArrayOps$ofRef.flatMap(ArrayOps.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI.xsbt$ExtractAPI$$processDefinitions(ExtractAPI.scala:422)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI$$anonfun$mkStructure$3.apply(ExtractAPI.scala:419)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI$$anonfun$mkStructure$3.apply(ExtractAPI.scala:419)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.Message$$anon$1.get(Message.scala:14)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbti.api.SafeLazy$Impl.get(SafeLazy.java:58)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI$$anonfun$forceStructures$1.apply(ExtractAPI.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI$$anonfun$forceStructures$1.apply(ExtractAPI.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.immutable.List.foreach(List.scala:383)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI.forceStructures(ExtractAPI.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.ExtractAPI.allExtractedNonLocalClasses(ExtractAPI.scala:639)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.API$TopLevelHandler.allNonLocalClasses(API.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.API$ApiPhase.processScalaUnit(API.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.API$ApiPhase.processUnit(API.scala:35)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.API$ApiPhase.apply(API.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:430)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$GlobalPhase$$anonfun$run$1.apply(Global.scala:397)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$GlobalPhase$$anonfun$run$1.apply(Global.scala:397)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.Iterator$class.foreach(Iterator.scala:743)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.AbstractIterator.foreach(Iterator.scala:1174)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$GlobalPhase.run(Global.scala:397)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.API$ApiPhase.run(API.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1625)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileUnits(Global.scala:1610)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compileSources(Global.scala:1605)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.tools.nsc.Global$Run.compile(Global.scala:1703)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.CachedCompiler0.run(CompilerInterface.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.CachedCompiler0.run(CompilerInterface.scala:105)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.CompilerInterface.run(CompilerInterface.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:237)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:111)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$3(MixedAnalyzingCompiler.scala:82)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:133)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.doCompile(Incremental.scala:106)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$compile$4(Incremental.scala:87)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon.recompileClasses(IncrementalCommon.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.compile(Incremental.scala:80)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompile$.apply(Compile.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:311)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:159)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:238)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:1517)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:1491)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.std.Transform$$anon$4.work(System.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$2(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.work(Execute.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$1(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m           [0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.internal.Types$TypeError: bad symbolic reference to org.mockito encountered in class file 'MockitoSugar.class'.[0m
+[0m[[0m[31merror[0m] [0m[0mCannot access term mockito in package org. The current classpath may be[0m
+[0m[[0m[31merror[0m] [0m[0mmissing a definition for org.mockito, or MockitoSugar.class may have been compiled against a version that's[0m
+[0m[[0m[31merror[0m] [0m[0mincompatible with the one found on the current classpath.[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.pickling.UnPickler$Scan.toTypeError(UnPickler.scala:675)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.pickling.UnPickler$Scan$LazyTypeRef.completeInternal(UnPickler.scala:690)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.pickling.UnPickler$Scan$LazyTypeRef.complete(UnPickler.scala:693)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1429)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.tpe.TypeMaps$TypeMap.loop$1(TypeMaps.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.tpe.TypeMaps$TypeMap.noChangeToSymbols(TypeMaps.scala:229)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:243)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:468)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:468)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Types$Type.asSeenFrom(Types.scala:663)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Types$Type.memberInfo(Types.scala:683)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI.defDef(ExtractAPI.scala:309)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI.xsbt$ExtractAPI$$definition(ExtractAPI.scala:440)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI$$anonfun$xsbt$ExtractAPI$$processDefinitions$1.apply(ExtractAPI.scala:422)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI$$anonfun$xsbt$ExtractAPI$$processDefinitions$1.apply(ExtractAPI.scala:422)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ArrayOps$ofRef.flatMap(ArrayOps.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI.xsbt$ExtractAPI$$processDefinitions(ExtractAPI.scala:422)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI$$anonfun$mkStructure$3.apply(ExtractAPI.scala:419)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI$$anonfun$mkStructure$3.apply(ExtractAPI.scala:419)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.Message$$anon$1.get(Message.scala:14)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbti.api.SafeLazy$Impl.get(SafeLazy.java:58)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI$$anonfun$forceStructures$1.apply(ExtractAPI.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI$$anonfun$forceStructures$1.apply(ExtractAPI.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:383)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI.forceStructures(ExtractAPI.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ExtractAPI.allExtractedNonLocalClasses(ExtractAPI.scala:639)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.API$TopLevelHandler.allNonLocalClasses(API.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.API$ApiPhase.processScalaUnit(API.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.API$ApiPhase.processUnit(API.scala:35)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.API$ApiPhase.apply(API.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:430)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$GlobalPhase$$anonfun$run$1.apply(Global.scala:397)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$GlobalPhase$$anonfun$run$1.apply(Global.scala:397)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator$class.foreach(Iterator.scala:743)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1174)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:397)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.API$ApiPhase.run(API.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1625)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1610)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1605)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.Global$Run.compile(Global.scala:1703)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CachedCompiler0.run(CompilerInterface.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CachedCompiler0.run(CompilerInterface.scala:105)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CompilerInterface.run(CompilerInterface.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:237)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:111)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$3(MixedAnalyzingCompiler.scala:82)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:133)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.doCompile(Incremental.scala:106)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$compile$4(Incremental.scala:87)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon.recompileClasses(IncrementalCommon.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.compile(Incremental.scala:80)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:311)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:159)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:238)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:1517)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:1491)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(System.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) scala.reflect.internal.Types$TypeError: bad symbolic reference to org.mockito encountered in class file 'MockitoSugar.class'.[0m
+[0m[[0m[31merror[0m] [0m[0mCannot access term mockito in package org. The current classpath may be[0m
+[0m[[0m[31merror[0m] [0m[0mmissing a definition for org.mockito, or MockitoSugar.class may have been compiled against a version that's[0m
+[0m[[0m[31merror[0m] [0m[0mincompatible with the one found on the current classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed 10-Aug-2018 12:03:32 PM[0m
